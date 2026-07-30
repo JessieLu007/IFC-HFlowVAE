@@ -1,0 +1,185 @@
+{
+    "name": "Thyroid_Diff",
+    "task_type": "binclass",
+    "header": 0,
+    "column_names": [
+        "Age",
+        "Gender",
+        "Smoking",
+        "Hx Smoking",
+        "Hx Radiothreapy",
+        "Thyroid Function",
+        "Physical Examination",
+        "Adenopathy",
+        "Pathology",
+        "Focality",
+        "Risk",
+        "T",
+        "N",
+        "M",
+        "Stage",
+        "Response"
+    ],
+    "num_col_idx": [
+        0
+    ],
+    "cat_col_idx": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+    ],
+    "target_col_idx": [
+        16
+    ],
+    "file_type": "csv",
+    "data_path": null,
+    "test_path": null,
+    "column_info": {
+        "0": {},
+        "type": "categorical",
+        "max": 82.0,
+        "min": 15.0,
+        "1": {},
+        "categorizes": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "13": {},
+        "14": {},
+        "15": {}
+    },
+    "train_num": 74,
+    "test_num": 21,
+    "idx_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15
+    },
+    "inverse_idx_mapping": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15
+    },
+    "idx_name_mapping": {
+        "0": "Age",
+        "1": "Gender",
+        "2": "Smoking",
+        "3": "Hx Smoking",
+        "4": "Hx Radiothreapy",
+        "5": "Thyroid Function",
+        "6": "Physical Examination",
+        "7": "Adenopathy",
+        "8": "Pathology",
+        "9": "Focality",
+        "10": "Risk",
+        "11": "T",
+        "12": "N",
+        "13": "M",
+        "14": "Stage",
+        "15": "Response"
+    },
+    "metadata": {
+        "columns": {
+            "0": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "1": {
+                "sdtype": "categorical"
+            },
+            "2": {
+                "sdtype": "categorical"
+            },
+            "3": {
+                "sdtype": "categorical"
+            },
+            "4": {
+                "sdtype": "categorical"
+            },
+            "5": {
+                "sdtype": "categorical"
+            },
+            "6": {
+                "sdtype": "categorical"
+            },
+            "7": {
+                "sdtype": "categorical"
+            },
+            "8": {
+                "sdtype": "categorical"
+            },
+            "9": {
+                "sdtype": "categorical"
+            },
+            "10": {
+                "sdtype": "categorical"
+            },
+            "11": {
+                "sdtype": "categorical"
+            },
+            "12": {
+                "sdtype": "categorical"
+            },
+            "13": {
+                "sdtype": "categorical"
+            },
+            "14": {
+                "sdtype": "categorical"
+            },
+            "15": {
+                "sdtype": "categorical"
+            }
+        }
+    }
+}

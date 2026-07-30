@@ -1,0 +1,12 @@
+{
+    "name": "PIMA_diabetes",
+    "task_type": "binclass", 
+    "header": 0,
+    "column_names": null,
+    "num_col_idx": [0,1,2,3,4,5,6,7],
+    "cat_col_idx": [], 
+    "target_col_idx": [8], 
+    "file_type": "csv",
+    "data_path": null,
+    "test_path": null
+}

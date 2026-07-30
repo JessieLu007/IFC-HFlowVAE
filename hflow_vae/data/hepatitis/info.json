@@ -1,0 +1,215 @@
+{
+    "name": "hepatitis",
+    "task_type": "binclass",
+    "header": 0,
+    "column_names": [
+        "age",
+        "sex",
+        "steroid",
+        "antivirals",
+        "fatigue",
+        "malaise",
+        "anorexia",
+        "liver_big",
+        "liver_firm",
+        "spleen_palpable",
+        "spiders",
+        "ascites",
+        "varices",
+        "bilirubin",
+        "alk_phosphate",
+        "sgot",
+        "albumin",
+        "protime",
+        "histology"
+    ],
+    "num_col_idx": [
+        0,
+        13,
+        14,
+        15,
+        16,
+        17
+    ],
+    "cat_col_idx": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        18
+    ],
+    "target_col_idx": [
+        19
+    ],
+    "file_type": "csv",
+    "data_path": null,
+    "test_path": null,
+    "column_info": {
+        "0": {},
+        "type": "categorical",
+        "max": 90.0,
+        "min": 29.0,
+        "13": {},
+        "14": {},
+        "15": {},
+        "16": {},
+        "17": {},
+        "1": {},
+        "categorizes": [
+            0.0,
+            1.0
+        ],
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {},
+        "7": {},
+        "8": {},
+        "9": {},
+        "10": {},
+        "11": {},
+        "12": {},
+        "18": {}
+    },
+    "train_num": 19,
+    "test_num": 10,
+    "idx_mapping": {
+        "0": 0,
+        "1": 6,
+        "2": 7,
+        "3": 8,
+        "4": 9,
+        "5": 10,
+        "6": 11,
+        "7": 12,
+        "8": 13,
+        "9": 14,
+        "10": 15,
+        "11": 16,
+        "12": 17,
+        "13": 1,
+        "14": 2,
+        "15": 3,
+        "16": 4,
+        "17": 5,
+        "18": 18
+    },
+    "inverse_idx_mapping": {
+        "0": 0,
+        "6": 1,
+        "7": 2,
+        "8": 3,
+        "9": 4,
+        "10": 5,
+        "11": 6,
+        "12": 7,
+        "13": 8,
+        "14": 9,
+        "15": 10,
+        "16": 11,
+        "17": 12,
+        "1": 13,
+        "2": 14,
+        "3": 15,
+        "4": 16,
+        "5": 17,
+        "18": 18
+    },
+    "idx_name_mapping": {
+        "0": "age",
+        "1": "sex",
+        "2": "steroid",
+        "3": "antivirals",
+        "4": "fatigue",
+        "5": "malaise",
+        "6": "anorexia",
+        "7": "liver_big",
+        "8": "liver_firm",
+        "9": "spleen_palpable",
+        "10": "spiders",
+        "11": "ascites",
+        "12": "varices",
+        "13": "bilirubin",
+        "14": "alk_phosphate",
+        "15": "sgot",
+        "16": "albumin",
+        "17": "protime",
+        "18": "histology"
+    },
+    "metadata": {
+        "columns": {
+            "0": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "13": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "14": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "15": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "16": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "17": {
+                "sdtype": "numerical",
+                "computer_representation": "Float"
+            },
+            "1": {
+                "sdtype": "categorical"
+            },
+            "2": {
+                "sdtype": "categorical"
+            },
+            "3": {
+                "sdtype": "categorical"
+            },
+            "4": {
+                "sdtype": "categorical"
+            },
+            "5": {
+                "sdtype": "categorical"
+            },
+            "6": {
+                "sdtype": "categorical"
+            },
+            "7": {
+                "sdtype": "categorical"
+            },
+            "8": {
+                "sdtype": "categorical"
+            },
+            "9": {
+                "sdtype": "categorical"
+            },
+            "10": {
+                "sdtype": "categorical"
+            },
+            "11": {
+                "sdtype": "categorical"
+            },
+            "12": {
+                "sdtype": "categorical"
+            },
+            "18": {
+                "sdtype": "categorical"
+            }
+        }
+    }
+}
