@@ -45,41 +45,6 @@ class ClassificationEvaluator:
                              random_state=random_state) 
         }
 
-        """classifiers = {
-            "LR": LogisticRegression(
-                max_iter=1000,
-                solver="liblinear",
-                random_state=random_state
-            ),
-
-            "SVC": SVC(
-                kernel="rbf",
-                C=1.0,
-                gamma="scale",
-                random_state=random_state
-            ),
-
-            "MLP": MLPClassifier(
-                hidden_layer_sizes=(64, 32),
-                activation="relu",
-                solver="adam",
-                alpha=1e-3,
-                max_iter=1000,
-                early_stopping=True,
-                validation_fraction=0.15,
-                random_state=random_state
-            ),
-
-            "XGB": XGBClassifier(
-                n_estimators=100,
-                max_depth=2,
-                learning_rate=0.05,
-                subsample=1.0,
-                colsample_bytree=1.0,
-                eval_metric="logloss",
-                random_state=random_state
-                )
-        }"""
         return classifiers
     
     def _calculate_metrics(self, y_true, y_pred):
