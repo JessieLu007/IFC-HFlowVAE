@@ -73,11 +73,12 @@ hflow_vae/notebooks/run_hflowvae_single.ipynb
 This notebook provides a simplified example for directly calling the proposed
 HFlowVAE model on an individual dataset.
 
-It can be used to:
+The complete pipeline can also be executed by:
 
-- train IFC-HFlowVAE;
-- generate synthetic tabular samples;
-- inspect generated results without running the complete benchmark pipeline.
+```bash
+python hflow_vae/ifc_core/runner.py
+```
+
 
 ---
 
@@ -143,31 +144,6 @@ Example:
 }
 ```
 
-Main components:
-
-- `hflow_vae/hetero_vae/`  
-  Implementation of the proposed HFlowVAE model.
-
-- `hflow_vae/ifc_core/`  
-  IFC training framework. The complete pipeline can also be executed by:
-
-```bash
-python hflow_vae/ifc_core/runner.py
-```
-
-- `hflow_vae/generators/`  
-  Synthetic data generation interfaces, including baseline methods.
-
-- `hflow_vae/evaluation/`  
-  Classification and synthetic data evaluation functions.
-
-- `hflow_vae/experiments/`  
-  Aggregated experimental results in parquet format.
-
-- `hflow_vae/process/` and `hflow_vae/utils/`  
-  Auxiliary processing and utility functions.
-
----
 
 ## Baseline Methods
 
