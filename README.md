@@ -49,6 +49,12 @@ Run:
 hflow_vae/notebooks/5cvfold_run.ipynb
 ```
 
+The complete pipeline can also be executed by:
+
+```bash
+python hflow_vae/ifc_core/runner.py
+```
+
 This notebook performs the complete experimental workflow:
 
 - loading and preprocessing datasets;
@@ -72,13 +78,6 @@ hflow_vae/notebooks/run_hflowvae_single.ipynb
 
 This notebook provides a simplified example for directly calling the proposed
 HFlowVAE model on an individual dataset.
-
-The complete pipeline can also be executed by:
-
-```bash
-python hflow_vae/ifc_core/runner.py
-```
-
 
 ---
 
