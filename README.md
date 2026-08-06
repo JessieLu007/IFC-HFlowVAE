@@ -132,8 +132,7 @@ Example:
         "liver_firm", "spleen_palpable", "spiders", "ascites", "varices", "histology"
     ],
     "numerical": [
-        "age", "bilirubin", "alk_phosphate",
-        "sgot", "albumin", "protime"
+        "age", "bilirubin", "alk_phosphate", "sgot", "albumin", "protime"
     ],
     "target": "label",
     "has_missing": true
@@ -193,7 +192,7 @@ If you use this repository, please cite:
 
 ```bibtex
 @article{IFC-HFlowVAE,
-  title={IFC-HFlowVAE: [Full manuscript title]},
+  title={IFC-HFlowVAE: A self-enhancing generative framework with structural anchoring for imbalanced clinical data augmentation},
   author={},
   journal={},
   year={}
