@@ -128,11 +128,8 @@ Example:
 ```json
 "hepatitis": {
     "categorical": [
-        "sex", "steroid", "antivirals", "fatigue",
-        "malaise", "anorexia", "liver_big",
-        "liver_firm", "spleen_palpable",
-        "spiders", "ascites", "varices",
-        "histology"
+        "sex", "steroid", "antivirals", "fatigue", "malaise", "anorexia", "liver_big",
+        "liver_firm", "spleen_palpable", "spiders", "ascites", "varices", "histology"
     ],
     "numerical": [
         "age", "bilirubin", "alk_phosphate",
