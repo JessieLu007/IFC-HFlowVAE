@@ -191,11 +191,15 @@ in the original ForestDiffusion package with this modified version.
 If you use this repository, please cite:
 
 ```bibtex
-@article{IFC-HFlowVAE,
+@article{yuwen2026ifc,
   title={IFC-HFlowVAE: A self-enhancing generative framework with structural anchoring for imbalanced clinical data augmentation},
-  author={},
-  journal={},
-  year={}
+  author={Yuwen, Lu and Chen, Shuyu},
+  journal={PloS one},
+  volume={21},
+  number={9},
+  pages={e0357260},
+  year={2026},
+  publisher={Public Library of Science San Francisco, CA USA}
 }
 ```
 
